@@ -1,18 +1,58 @@
 ul{
     list-style-type: none;
-    margin:0;
+    margin: 1vw 1vw 1vw 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: white;
     float: right;
 }
 
 li a{
 display: block;
-color: white;
+color: black;
 padding: 20px;
 text-decoration: none;
+font-weight: 1000;
+}
+li a:hover{
+    background-color: aqua;
+    text-decoration:underline;
+}
+li a:focus{
+    background-color: lightgray;
 }
 li{
     float: right;
+}
+div{
+    position: relative;
+    margin: 0vw 5vw;
+}
+.avatar{
+    border-radius: 90px;
+    vertical-align:top;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+body{background-image: url('blocks.webp');
+background-size: cover;}
+#main{
+    color: white;
+    margin-left: 2%;
+}
+.sec{
+    border: 1px solid white;
+    text-align: center;
+    margin: 25vw 15vw 0 15vw;
+    color: white;
+}
+#second{
+    text-decoration: underline;
+}
+#para1{
+    font-size: 2vw;
+}
+#second{
+    font-size: 3vw;
 }
