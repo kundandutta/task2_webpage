@@ -1,4 +1,4 @@
-ul{
+ul {
     list-style-type: none;
     margin: 1vw 1vw 1vw 0;
     padding: 0;
@@ -7,83 +7,107 @@ ul{
     float: right;
 }
 
-li a{
-display: block;
-color: black;
-padding: 20px;
-text-decoration: none;
-font-weight: 1000;
+li a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 1000;
 }
-li a:hover{
+
+li a:hover {
     background-color: aqua;
-    text-decoration:underline;
+    text-decoration: underline;
 }
-li a:focus{
+
+li a:focus {
     background-color: lightgray;
 }
-li{
+
+li {
     float: right;
 }
-div{
+
+div {
     position: relative;
     margin: 0vw 5vw;
 }
-.avatar{
+
+.avatar {
     border-radius: 90px;
-    vertical-align:top;
+    vertical-align: top;
     width: 120px;
     height: 120px;
     float: left;
 }
-.home{
+
+.home {
     background-image: url('blocks.webp');
-background-size: cover;}
-#main{
+    background-size: cover;
+}
+
+#main {
     color: white;
     margin-left: 2%;
 }
-.sec{
+
+.sec {
     border: 1px solid white;
     text-align: center;
     margin: 25vw 15vw 0 15vw;
     color: white;
 }
-#second{
+
+#second {
     text-decoration: underline;
 }
-#para1{
+
+#para1 {
     font-size: 2vw;
 }
-#second{
+
+#second {
     font-size: 3vw;
 }
-#about{
+
+#about {
     background-color: rgba(0, 0, 0, 0.937);
     color: white;
 }
-span{
+
+span {
     color: brown;
 }
-#div_about{
+
+#div_about {
     margin-left: 5vw;
     margin-right: 5vw;
     float: right;
 }
-#habout{
+
+#habout {
     font-size: 5vw;
 }
-#pabout{
+
+#pabout {
     font-size: 1.5vw;
 }
-button{
+
+button {
     background-color: brown;
     box-sizing: border-box;
     color: white;
-    font-size:20px;
+    font-size: 20px;
     border-radius: 10px;
     padding: 3%;
 }
-button:hover{
+
+button:hover {
     color: black;
     background-color: yellowgreen;
+}
+
+#imageabt {
+    width: 45vw;
+    height: 60vw;
 }
