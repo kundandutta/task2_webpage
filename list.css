@@ -35,7 +35,8 @@ div{
     height: 120px;
     float: left;
 }
-body{background-image: url('blocks.webp');
+.home{
+    background-image: url('blocks.webp');
 background-size: cover;}
 #main{
     color: white;
@@ -55,4 +56,34 @@ background-size: cover;}
 }
 #second{
     font-size: 3vw;
+}
+#about{
+    background-color: rgba(0, 0, 0, 0.937);
+    color: white;
+}
+span{
+    color: brown;
+}
+#div_about{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    float: right;
+}
+#habout{
+    font-size: 5vw;
+}
+#pabout{
+    font-size: 1.5vw;
+}
+button{
+    background-color: brown;
+    box-sizing: border-box;
+    color: white;
+    font-size:20px;
+    border-radius: 10px;
+    padding: 3%;
+}
+button:hover{
+    color: black;
+    background-color: yellowgreen;
 }
